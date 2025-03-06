@@ -154,6 +154,8 @@ def filter_classmates(classmates, property_name, value, answer):
             has_value = (value in classmate_value)
         elif isinstance(classmate_value, str):
             has_value = (value == classmate_value)
+        elif isinstance(classmate_value, int):
+            has_value = (value == classmate_value)
         else:
             print(f"Unexpected property type: {type(classmate_value)} for property: {property_name}")
             has_value = False
@@ -240,32 +242,32 @@ def main():
         last_attr_used = attr
         print(f"Remaining possibilities: {len(remaining_classmates)}")
 
-        if len(remaining_classmates) == 1:
-            print(f"\nI guess your classmate is {remaining_classmates[0]['name']}!")
-            if get_yes_no_input("Am I correct?"):
-                print("Great!")
-            else:
-                print("Oops! Let's add your classmate to the database.")
-                new_classmate = add_new_classmate()
-                if new_classmate:
-                    classmates.append(new_classmate)
-                    save_classmates(classmates)
-        elif len(remaining_classmates) > 1:
-            print("\nI'm not sure who it is. Here are some possibilities:")
-            for i, classmate in enumerate(remaining_classmates, start=1):
-                print(f"{i}. {classmate['name']}")
-            if get_yes_no_input("Would you like to add your classmate to the database?"):
-                new_classmate = add_new_classmate()
-                if new_classmate:
-                    classmates.append(new_classmate)
-                    save_classmates(classmates)
+    if len(remaining_classmates) == 1:
+        print(f"\nI guess your classmate is {remaining_classmates[0]['name']}!")
+        if get_yes_no_input("Am I correct?"):
+            print("Great!")
         else:
-            print("I couldn't find any matching classmate.")
-            if get_yes_no_input("Would you like to add your classmate to the database?"):
-                new_classmate = add_new_classmate()
-                if new_classmate:
-                    classmates.append(new_classmate)
-                    save_classmates(classmates)
+            print("Oops! Let's add your classmate to the database.")
+            new_classmate = add_new_classmate()
+            if new_classmate:
+                classmates.append(new_classmate)
+                save_classmates(classmates)
+    elif len(remaining_classmates) > 1:
+        print("\nI'm not sure who it is. Here are some possibilities:")
+        for i, classmate in enumerate(remaining_classmates, start=1):
+            print(f"{i}. {classmate['name']}")
+        if get_yes_no_input("Would you like to add your classmate to the database?"):
+            new_classmate = add_new_classmate()
+            if new_classmate:
+                classmates.append(new_classmate)
+                save_classmates(classmates)
+    else:
+        print("I couldn't find any matching classmate.")
+        if get_yes_no_input("Would you like to add your classmate to the database?"):
+            new_classmate = add_new_classmate()
+            if new_classmate:
+                classmates.append(new_classmate)
+                save_classmates(classmates)
 
     if get_yes_no_input("Would you like to play again?"):
         main()
