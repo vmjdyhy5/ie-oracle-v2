@@ -1,0 +1,415 @@
+[
+    {
+        "name": "Bogdan",
+        "country": "Romania",
+        "eye_color": "Brown",
+        "languages_spoken": ["Romanian", "English", "Spanish"],
+        "name_length": 6
+    },
+    {
+        "name": "Marlene",
+        "country": "Germany",
+        "eye_color": "Brown",
+        "languages_spoken": ["Portuguese", "German", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Noam",
+        "country": "France",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English"],
+        "name_length": 4
+    },
+    {
+        "name": "Kristian",
+        "country": "Norway",
+        "eye_color": "Blue",
+        "languages_spoken": ["Norwegian", "English"],
+        "name_length": 7
+    },
+    {
+        "name": "Rayan",
+        "country": "Portugal",
+        "eye_color": "Brown",
+        "languages_spoken": ["English", "Portuguese", "Spanish"],
+        "name_length": 5
+    },
+    {
+        "name": "Alexander",
+        "country": "Norway",
+        "eye_color": "Blue",
+        "languages_spoken": ["Norwegian", "English"],
+        "name_length": 8
+    },
+    {
+        "name": "Jakob",
+        "country": "Denmark",
+        "eye_color": "Blue",
+        "languages_spoken": ["Danish", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Ismail",
+        "country": "Morocco",
+        "eye_color": "Brown",
+        "languages_spoken": ["Arabic", "French", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Nora",
+        "country": "Romania",
+        "eye_color": "Brown",
+        "languages_spoken": ["Romanian", "English"],
+        "name_length": 4
+    },
+    {
+        "name": "Léa",
+        "country": "Mexico",
+        "eye_color": "Blue",
+        "languages_spoken": ["Spanish", "French", "English"],
+        "name_length": 3
+    },
+    {
+        "name": "Arthus",
+        "country": "France",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Andre",
+        "country": "USA",
+        "eye_color": "Green",
+        "languages_spoken": ["English"],
+        "name_length": 5
+    },
+    {
+        "name": "Carlos",
+        "country": "Spain",
+        "eye_color": "Brown",
+        "languages_spoken": ["Spanish", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Mohamed",
+        "country": "Morocco",
+        "eye_color": "Brown",
+        "languages_spoken": ["English", "French", "Arabic"],
+        "name_length": 7
+    },
+    {
+        "name": "Joe",
+        "country": "Lebanon",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English", "Arabic"],
+        "name_length": 3
+    },
+    {
+        "name": "Elisa",
+        "country": "Italy",
+        "eye_color": "Green",
+        "languages_spoken": ["Spanish", "Italian", "French", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "José",
+        "country": "Mexico",
+        "eye_color": "Brown",
+        "languages_spoken": ["Spanish", "English"],
+        "name_length": 4
+    },
+    {
+        "name": "Felipe",
+        "country": "Argentina",
+        "eye_color": "Hazel",
+        "languages_spoken": ["Spanish", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Marina",
+        "country": "Portugal",
+        "eye_color": "Brown",
+        "languages_spoken": ["Portuguese", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Jules",
+        "country": "France",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Camille",
+        "country": "France",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Vera",
+        "country": "Dominica",
+        "eye_color": "Black",
+        "languages_spoken": ["Spanish", "English"],
+        "name_length": 4
+    },
+    {
+        "name": "Julie",
+        "country": "Palestine",
+        "eye_color": "Brown",
+        "languages_spoken": ["Arabic", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Matthieu",
+        "country": "UK",
+        "eye_color": "Blue",
+        "languages_spoken": ["French", "English"],
+        "name_length": 7
+    },
+    {
+        "name": "Serban",
+        "country": "Romania",
+        "eye_color": "Brown",
+        "languages_spoken": ["Romanian", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Dejana",
+        "country": "Serbia",
+        "eye_color": "Beautiful",
+        "languages_spoken": ["Serbian", "English", "Russian"],
+        "name_length": 6
+    },
+    {
+        "name": "Omar",
+        "country": "Egypt",
+        "eye_color": "Hazel",
+        "languages_spoken": ["Arabic", "French", "English"],
+        "name_length": 4
+    },
+    {
+        "name": "Walter",
+        "country": "Cyprus",
+        "eye_color": "Blue",
+        "languages_spoken": ["Italian", "English", "Spanish", "Arabic"],
+        "name_length": 6
+    },
+    {
+        "name": "Vasileios",
+        "country": "Greece",
+        "eye_color": "Blue",
+        "languages_spoken": ["Greek", "English"],
+        "name_length": 9
+    },
+    {
+        "name": "Lara",
+        "country": "Germany",
+        "eye_color": "Brown",
+        "languages_spoken": ["German", "English", "French"],
+        "name_length": 4
+    },
+    {
+        "name": "Lucas",
+        "country": "Japan",
+        "eye_color": "Brown",
+        "languages_spoken": ["Japanese", "German", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Maxim",
+        "country": "Germany",
+        "eye_color": "Brown",
+        "languages_spoken": ["German", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Oscar",
+        "country": "China",
+        "eye_color": "Brown",
+        "languages_spoken": ["Mandarin", "English"],
+        "name_length": 4
+    },
+    {
+        "name": "Tiago",
+        "country": "Peru",
+        "eye_color": "Hazel",
+        "languages_spoken": ["Spanish", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Ramiro",
+        "country": "Singapore",
+        "eye_color": "Brown",
+        "languages_spoken": ["Mandarin", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Matilde",
+        "country": "Portugal",
+        "eye_color": "Amazing",
+        "languages_spoken": ["Portuguese", "English", "Spanish"],
+        "name_length": 6
+    },
+    {
+        "name": "Miguel",
+        "country": "Belgium",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Angelo",
+        "country": "Italy",
+        "eye_color": "Green",
+        "languages_spoken": ["Italian"],
+        "name_length": 5
+    },
+    {
+        "name": "Benjamin",
+        "country": "Africa",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English"],
+        "name_length": 7
+    },
+    {
+        "name": "Ali",
+        "country": "Jordan",
+        "eye_color": "Diamond",
+        "languages_spoken": ["Rizz"],
+        "name_length": 3
+    },
+    {
+        "name": "Oliver",
+        "country": "Denmark",
+        "eye_color": "Blue",
+        "languages_spoken": ["French", "Danish", "English"],
+        "name_length": 6
+    },
+    {
+        "name": "Maria",
+        "country": "Spain",
+        "eye_color": "Brown",
+        "languages_spoken": ["Spanish", "English"],
+        "name_length": 5
+    },
+    {
+        "name": "Bruna",
+        "country": "Brazil",
+        "eye_color": "Brown",
+        "languages_spoken": ["Portuguese", "English", "Spanish"],
+        "name_length": 5
+    },
+    {
+        "name": "Nicolas",
+        "country": "Argentina",
+        "eye_color": "Brown",
+        "languages_spoken": ["English", "Spanish"],
+        "name_length": 6
+    },
+    {
+        "name": "Luka",
+        "country": "USA",
+        "eye_color": "Brown",
+        "languages_spoken": ["English"],
+        "name_length": 4
+    },
+    {
+        "name": "Catarina",
+        "country": "Brazil",
+        "eye_color": "Brown",
+        "languages_spoken": ["Portuguese", "English"],
+        "name_length": 8
+    },
+    {
+        "name": "Karolina",
+        "country": "Poland",
+        "eye_color": "Brown",
+        "languages_spoken": ["Polish", "English"],
+        "name_length": 8
+    },
+    {
+        "name": "Zachari",
+        "country": "South Africa",
+        "eye_color": "Blue",
+        "languages_spoken": ["English"],
+        "name_length": 7
+    },
+    {
+        "name": "Jérémy",
+        "country": "Belgium",
+        "eye_color": "Blue",
+        "languages_spoken": ["French", "English", "Dutch"],
+        "name_length": 6
+    },
+    {
+        "name": "Fredrik",
+        "country": "Norway",
+        "eye_color": "Brown",
+        "languages_spoken": ["Norwegian", "English"],
+        "name_length": 7
+    },
+    {
+        "name": "Amjed",
+        "country": "Saudi Arabia",
+        "eye_color": "Brown",
+        "languages_spoken": ["Facts", "French", "English", "Spanish", "Arabic"],
+        "name_length": 5
+    },
+    {
+        "name": "Gabriel",
+        "country": "Lebanon",
+        "eye_color": "Green",
+        "languages_spoken": ["French", "English", "Arabic"],
+        "name_length": 7
+    },
+    {
+        "name": "Ziad",
+        "country": "Egypt",
+        "eye_color": "Brown",
+        "languages_spoken": ["Arabic", "English"],
+        "name_length": 4
+    },
+    {
+        "name": "Anas",
+        "country": "Libya",
+        "eye_color": "Brown",
+        "languages_spoken": ["French", "English", "Arabic"],
+        "name_length": 4
+    },
+    {
+        "name": "Maximilian",
+        "country": "Austria",
+        "eye_color": "Blue",
+        "languages_spoken": ["German", "English"],
+        "name_length": 10
+    },
+    {
+        "name": "Matei",
+        "country": "Romania",
+        "eye_color": "Brown",
+        "languages_spoken": ["English", "Romanian"],
+        "name_length": 5
+    },
+    {
+        "name": "Sebastian",
+        "country": "Mexico",
+        "eye_color": "Brown",
+        "languages_spoken": ["English", "Spanish", "French"],
+        "name_length": 9
+    },
+    {
+        "name": "Domiziano",
+        "country": "Italy",
+        "eye_color": "Brown",
+        "languages_spoken": ["Italian", "English"],
+        "name_length": 10
+    },
+    {
+        "name": "Hugo",
+        "country": "Spain",
+        "eye_color": "Hazel",
+        "languages_spoken": ["Spanish", "Broken English"],
+        "name_length": 4
+    }
+]
