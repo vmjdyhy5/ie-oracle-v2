@@ -13,11 +13,11 @@ def get_best_question(remaining_classmates, properties, last_attr_used=None):
         last_attr_used (str, optional): Previously used property
 
     Returns:
-        tuple: (attribute, value, info_gain) or (None, None, 0) if no valid split
+        tuple: (attribute, value) or (None, None) if no valid split
     """
     n = len(remaining_classmates)
     if n <= 1:
-        return None, None, 0
+        return None, None
 
     candidates = []  # Each candidate is a tuple (attribute, value, info_gain)
 
@@ -47,7 +47,7 @@ def get_best_question(remaining_classmates, properties, last_attr_used=None):
             candidates.append((attr, value, info_gain))
 
     if not candidates:
-        return None, None, 0
+        return None, None
 
 
     # Sort candidates by information gain (highest first)
@@ -55,7 +55,7 @@ def get_best_question(remaining_classmates, properties, last_attr_used=None):
 
     for attr, value, info_gain in candidates:
         if attr != last_attr_used:
-            return attr, value, info_gain
+            return attr, value
 
     # If all candidates repeat last_attr_used, return the best one
     return candidates[0]
@@ -275,4 +275,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
